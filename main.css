@@ -19,6 +19,16 @@ html {
     .contactForm{
         margin: 3rem 10%;
     }
+
+    .container--narrow 
+    {
+        margin-top: 20rem;
+    }
+
+    .banner
+    {
+        height: 87rem;
+    }
 }
 
 *,
@@ -78,8 +88,9 @@ section {
 {
     position: relative;
     width: 100%;
-    height: 85rem;
-    min-width: 100vh;
+    height: 90rem;
+    /* min-width: 100vh; */
+    max-width: fit-content;
     background: url('banner-bg.png');
     color: #fff;
 }
@@ -94,12 +105,12 @@ section {
 .container--narrow p
 {
     margin-top: 1em;
-    max-width: 65rem;
+    max-width: 90%;
 }
 
 .container--narrow 
 {
-    margin-top: 20rem;
+    margin-top: 15rem;
 }
 
 .btn
@@ -163,7 +174,17 @@ section {
     .contactForm{
         margin: 3rem 10%;
     }
-}
+
+    .container--narrow 
+    {
+        margin-top: 20rem;
+    }
+
+    .banner
+    {
+        height: 87rem;
+    }
+}   
 
 header
 {
@@ -233,7 +254,7 @@ nav
     text-align: left;
     top: 100%;
     left: 0;
-    background: var(--background);
+    /* background: var(--background); */
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
@@ -326,6 +347,15 @@ nav a:hover
         margin: 3rem 20%;
     }
 
+    .container--narrow 
+    {
+        margin-top: 20rem;
+    }
+
+    .banner
+    {
+        height: 87rem;
+    }
 }
 
 .bring .upperboxes
